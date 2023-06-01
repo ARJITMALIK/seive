@@ -1,0 +1,33 @@
+.shaker_main {
+  border: 2px solid red;
+  width: 150px;
+  height: 300px;
+  margin: 30px;
+  position: relative;
+}
+
+.shaker {
+  border: 2px solid black;
+  /* margin: 10px; */
+  height: 280px;
+  width: 140px;
+  position: absolute;
+  top: 10px;
+  left: 2px;
+  animation: up_down 2s ease-in-out infinite;
+}
+
+@keyframes up_down {
+  0% {
+    top: 10px;
+  }
+  25% {
+    top: -20px;
+  }
+  75% {
+    top: 40px;
+  }
+  100% {
+    top: 10px;
+  }
+}
