@@ -4,14 +4,35 @@
 
 .seive3d {
   position: relative;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/* .net { */
-/*   border: 2px solid black; */
-/* } */
+.net {
+  border: 2px solid black;
+  margin-left: 10px;
+}
+
+.seive {
+  position: relative;
+}
+
+.seive_num {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-size: 20px;
+  padding: 5px 10px;
+  font-weight: bold;
+}
 
 td {
-  border: 2px solid white;
+  border: 2px solid #c4c4c4;
   margin: 0px;
   padding: 0px;
 }

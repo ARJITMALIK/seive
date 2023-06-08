@@ -1,5 +1,7 @@
 .weighing_balance {
   position: relative;
+  margin-bottom: 40px;
+  /* border: 2px solid black; */
 }
 
 .display {

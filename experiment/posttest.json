@@ -2,29 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "The receiver at the bottom of the assembly in sieve shaking machine is?",
+      "question": "This is a Sample Question 1?",
       "answers": {
-        "a": "4.75mm sieve",
-        "b": "425 microns sieve",
-        "c": "pan",
-        "d": "75 micron sieve"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "A Pan is kept at the bottom of the whole assembly to collect the finest particle of the sample that is used in the experiment",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "Particle size is determined by ?",
-      "answers": {
-        "a": "Sieving method",
-        "b": "Sedimentation method",
-        "c": "Microscopy",
-        "d": "All of the above"
+        "a": "answer1",
+        "b": "answer2",
+        "c": "answer3",
+        "d": "answer4"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -32,7 +15,24 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "d",
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "This is a Sample Question 2?",
+      "answers": {
+        "a": "answer1",
+        "b": "answer2",
+        "c": "answer3",
+        "d": "answer4"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
       "difficulty": "beginner"
     }
   ]

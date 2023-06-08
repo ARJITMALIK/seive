@@ -1,23 +1,19 @@
-function addRows() {
-  var table = document.getElementById("emptbl");
-  var rowCount = table.rows.length;
-  var cellCount = table.rows[0].cells.length;
-  var row = table.insertRow(rowCount);
-  for (var i = 0; i <= cellCount; i++) {
-    var cell = "cell" + i;
-    cell = row.insertCell(i);
-    var copycel = document.getElementById("col" + i).innerHTML;
-    cell.innerHTML = copycel;
-    if (i == 3) {
-      var radioinput = document
-        .getElementById("col3")
-        .getElementsByTagName("input");
-      for (var j = 0; j <= radioinput.length; j++) {
-        if (radioinput[j].type == "radio") {
-          var rownum = rowCount;
-          radioinput[j].name = "gender[" + rownum + "]";
-        }
-      }
+const net = document.querySelector(".net");
+
+// function to add dynamic net filter size for different seive sizes
+function buildNet(table, rows, cols) {
+  let rowsArray = [];
+  for (let i = 0; i < rows - 1; i++) {
+    table.insertRow(-1);
+    rowsArray.push(table.insertRow(-1));
+  }
+
+  for (let i = 0; i < rowsArray.length; i++) {
+    for (let j = 0; j < cols; j++) {
+      rowsArray[i].insertCell(-1);
     }
   }
 }
+
+// @params (element name, rows, columns)
+buildNet(net, 10, 40);
