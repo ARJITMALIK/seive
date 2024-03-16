@@ -2,7 +2,7 @@
   
 The study of science and technology of small particles along with the fundamental and derived properties of indiviodual as well as a collection of particles is known as micromeritics. The micromeritic properties of a drug can be related in a significant way to the physical, chemical and pharmacological properties of a drug. <Br>
   
-Clinically, the particle size of a drug can affect its release from dosage formsthat are administered orally, parenterally, rectally and topically. Thus,the successful formulation of suspensions, emulsions and tablets, from the view points of both physcal stabilityand pharmacologic response, also depends on the particle size achieved in the product. <Br>
+Clinically, the particle size of a drug can affect its release from dosage forms that are administered orally, parenterally, rectally and topically. Thus, the successful formulation of suspensions, emulsions and tablets, from the view points of both physcal stabilityand pharmacologic response, also depends on the particle size achieved in the product. <Br>
 
 **PRINCIPLE** <Br>
   
