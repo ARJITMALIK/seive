@@ -1,1 +1,1 @@
-### The aim of the experiment is to detremine the true density of the pharmaceutical powders by using liquid displacement method.
+### The aim of the experiment is to determine the Particle size and Particle size distribution by using sieving method.
